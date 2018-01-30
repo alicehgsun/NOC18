@@ -20,7 +20,7 @@ function draw() {
   pos.y = constrain(pos.y, 0, h);
 
   stroke(255);
-  strokeWeight(2);
+  strokeWeight(1);
   noFill();
   line(pos.x, pos.y, prev.x, prev.y);
   stroke(255);
@@ -30,9 +30,9 @@ function draw() {
 
   var r = random(100);
   if (r < 1) {
-    step.mult(random(45, 100));
+    step.mult(random(50, 120));
   } else {
-    step.setMag(25);
+    step.setMag(20);
   }
 
   //pos = pos + step;
