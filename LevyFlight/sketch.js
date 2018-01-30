@@ -1,9 +1,14 @@
 
 var pos;
 var prev;
+var w;
+var h;
+
+w = 600;
+h = 600;
 
 function setup() {
-  createCanvas(1000, 1000);
+  createCanvas(w, h);
 background(0);
   pos = createVector(mouseX, mouseY);
   prev = pos.copy();
@@ -11,8 +16,8 @@ background(0);
 }
 
 function draw() {
-  pos.x = constrain(pos.x, 0, 1000);
-  pos.y = constrain(pos.y, 0, 1000);
+  pos.x = constrain(pos.x, 0, w);
+  pos.y = constrain(pos.y, 0, h);
 
   stroke(255);
   strokeWeight(2);
@@ -37,7 +42,7 @@ function draw() {
   if (d>5){
     fill(random(255),random(255),random(255),50);
     noStroke();
-    triangle(pos.x, pos.y, prev.x, prev.y,500, 500);
+    triangle(pos.x, pos.y, prev.x, prev.y,w/2, h/2);
   }
 
 }
