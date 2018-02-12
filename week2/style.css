@@ -1,0 +1,15 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  position: fixed;
+  top: 12px;
+  left: 22px;
+  color: #383838;
+  font-size: 17px;
+  font-weight: lighter;
+  z-index: 2;
+  font-family: 'Work Sans', sans-serif;
+}
