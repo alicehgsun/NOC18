@@ -7,4 +7,6 @@ Nature of Code 2018
 3. [Week 3: Rhodonea Curve Chart](https://alicehgsun.github.io/NOC18/week3/)
 <br>Assignment 3 based on Polar Rose Pattern [example](https://github.com/CodingTrain/website/tree/master/CodingChallenges/CC_55_Roses_p5)
 4. [Week 4: Generative Font](https://alicehgsun.github.io/NOC18/week4/)
-<br>Assignment 3 based on Generative Font [example](https://www.openprocessing.org/sketch/9390#)
+<br>Assignment 4 based on Generative Font [example](https://www.openprocessing.org/sketch/9390#)
+5. [Week 5: Generative Font 2](https://alicehgsun.github.io/NOC18/week5/)
+<br>Trials for the mid-term / Simulation project
