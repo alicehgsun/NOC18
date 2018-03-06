@@ -10,3 +10,5 @@ Nature of Code 2018
 <br>Assignment 4 based on Generative Font [example](https://www.openprocessing.org/sketch/9390#)
 5. [Week 5: Generative Font 2](https://alicehgsun.github.io/NOC18/week5/)
 <br>Trials for the mid-term / Simulation project
+6. [Week 6: Generative Font 3](https://alicehgsun.github.io/NOC18/week6/)
+<br>More experiment with box2d polygon [example](https://github.com/shiffman/The-Nature-of-Code-Examples-p5.js/tree/master/chp05_libraries/box2d-html5/NOC_5_04_Polygons)
