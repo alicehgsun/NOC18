@@ -1,4 +1,5 @@
 Nature of Code 2018
+<br>[→ class blog](http://www.alicehgsun.xyz/category/nature-of-code/)
 
 1. [Week 1: Lévy Flight](https://alicehgsun.github.io/NOC18/week1/)
 <br>Assignment 1 based on Lévy flight [example](https://github.com/CodingTrain/Rainbow-Code/blob/master/CodingChallenges/CC_53_random_walk_levy/sketch.js)
