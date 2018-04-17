@@ -1,0 +1,40 @@
+<html>
+
+<head>
+    <title>Food!</title>
+    <style>
+    html, body {
+      margin: 0;
+      padding: 0;}
+    /* Following font does not belong to Alice Sun. */
+    /* Installation or usage of the following font is prohibited. */
+    @font-face {
+      font-family: 'Alpha';
+      src: url('Alpha.otf');
+    }
+    p {
+      font-family: 'Alpha';
+      position: fixed;
+      top: 2vh;
+      left: 2vw;
+      z-index: 100;
+      color: blue;
+    }
+    </style>
+    <script language="javascript" type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.8/p5.js"></script>
+    <script language="javascript" type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.8/addons/p5.dom.js"></script>
+    <script language="javascript" type="text/javascript" src="vehicle.js"></script>
+    <script language="javascript" type="text/javascript" src="sketch.js"></script>
+</head>
+
+<body>
+
+  <div id="canvascontainer"></div>
+  <div id="interface">
+    <p>
+    debug: <input id = "debug" type="checkbox" checked></input>
+  </p>
+  </div>
+</body>
+
+</html>
