@@ -13,5 +13,5 @@ Nature of Code 2018
 <br>Trials for the mid-term / Simulation project
 6. [Week 6: Generative Font 3](https://alicehgsun.github.io/NOC18/week6/)
 <br>More experiment with box2d polygon [example](https://github.com/shiffman/The-Nature-of-Code-Examples-p5.js/tree/master/chp05_libraries/box2d-html5/NOC_5_04_Polygons)
-6. [Week 8: Generative Font 3](https://alicehgsun.github.io/NOC18/week8/)
+6. [Week 8: Evolutionary Pac-Man](https://alicehgsun.github.io/NOC18/week8/)
 <br>Week 8 assignment based on Steering Behavior [example](https://github.com/shiffman/NOC-S18/tree/master/week8/evolve_steering)
