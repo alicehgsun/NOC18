@@ -1,13 +1,13 @@
 // Based on: Daniel Shiffman's Polar Rose code
 
 function setup() {
-  var sizeall = windowHeight;
+  var sizeall = windowWidth;
   createCanvas(sizeall, sizeall);
   textSize(width / 66);
 }
 
 function draw() {
-  background(0);
+  background(0, 0, 0);
   for (var transX = width / 8; transX < width; transX += width / 8) {
     for (var transY = width / 8; transY < width; transY += width / 8) {
       var d = map(transY, 0, width, 0, 7);
@@ -38,5 +38,8 @@ function draw() {
       text("Rose with k petals (k = n/d)", width / 1.3, height / 1.03);
     }
   }
+}
 
+function windowResized() {
+  resizeCanvas(windowWidth, windowWidth);
 }
